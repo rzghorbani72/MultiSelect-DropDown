@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Getting Started with Multi Select DropDown
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+<img src="./src/assets//showcase1.png" width="220">
+<img src="./src/assets//showcase2.png" width="220">
+<img src="./src/assets//showcase3.png" width="220">
 
 ## Available Scripts
 

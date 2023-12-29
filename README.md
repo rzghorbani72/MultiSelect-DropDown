@@ -2,10 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<div style="display:flex; flex-wrap:wrap">
 <img src="./src/assets//showcase1.png" width="220">
 <img src="./src/assets//showcase2.png" width="220">
 <img src="./src/assets//showcase3.png" width="220">
-
+</div>
 ## Available Scripts
 
 In the project directory, you can run:

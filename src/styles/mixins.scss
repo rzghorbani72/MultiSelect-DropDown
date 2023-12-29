@@ -1,0 +1,15 @@
+@mixin dropdownItem {
+  list-style: none;
+  height: 40px;
+  padding: $box-padding;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 14px;
+  font-size: $font-size;
+  margin: 2px 0px;
+  width: -webkit-fill-available;
+  &--span {
+    width: -webkit-fill-available;
+  }
+}

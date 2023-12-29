@@ -1,0 +1,58 @@
+@use "../../styles/variables.scss" as *;
+
+.inputwrapper {
+  margin-top: 50px;
+  margin-bottom: 9px;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  min-height: 50px;
+  border-radius: $border-radius;
+  border: 2px solid rgb(162, 176, 223);
+  &__active {
+    outline: rgb(221, 224, 247) solid 4px;
+  }
+  &__input {
+    height: auto;
+    width: 82%;
+    border-radius: inherit;
+    border: none;
+    outline: none;
+    color: $text-color;
+    font-size: $font-size;
+    padding: $box-padding;
+  }
+  &__button {
+    border-radius: inherit;
+    border: none;
+    background-color: white;
+    padding: 2px 2px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    &--open {
+      margin-left: 2;
+      transform: rotate(180deg);
+    }
+
+    &--close {
+      margin-left: 2;
+      transform: rotate(0deg);
+    }
+  }
+  &__badge {
+    border-radius: 5px;
+    padding: 4px 8px;
+    background-color: lightgray;
+    color: white;
+    margin: 2px;
+    height: 25px;
+    display: flex;
+    width: fit-content;
+  }
+  &__badgewrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
